@@ -15,6 +15,8 @@ tokio = { version = "1.2", features = ["time", "macros", "rt-multi-thread"] }
 tokio-tungstenite = "0.14"
 tungstenite = "0.13"
 url = "2.2"
+bevy = "0.4.0"
+rand = "0.8.3"
 
 [[bin]]
 name = "server"
@@ -23,3 +25,7 @@ path = "src/server.rs"
 [[bin]]
 name = "client"
 path = "src/client.rs"
+
+[[bin]]
+name = "front"
+path = "src/front.rs"
